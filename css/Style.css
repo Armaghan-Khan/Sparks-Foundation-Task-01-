@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Times;
+}
+.intro {
+  background: #16bce5;
+}
+h1 {
+  color: black;
+  font-weight: bold;
+  transition: 0.5s;
+  text-align: center;
+}
+h3 {
+  color: black;
+}
+
+button {
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  background: rgb(6, 24, 154);
+  color: rgb(255, 255, 255);
+  letter-spacing: 1.5px;
+  font-size: 15px;
+  transition: 0.5s;
+}
+button:hover,
+h1:hover {
+  transform: scale(1.1);
+}
+button:hover {
+  background-color: #07a8d0;
+}
+footer {
+  color: black;
+  background-color: #16bce5;
+  letter-spacing: 0.5px;
+}
+footer p {
+  margin: 0;
+  font-size: 15px;
+}
+.im {
+  width: 210vh;
+  height: 50vh;
+}
+.action {
+  text-align: center;
+  text-decoration: underline;
+  font-family: "Roboto Slab", serif;
+}
+
+@media only screen and (orientation: portrait) {
+  .intro {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  .act {
+    padding-bottom: 100px;
+  }
+}

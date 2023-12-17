@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: s;
+}
+h2 {
+  font-size: 40px;
+}
+table {
+  letter-spacing: 1.2px;
+}
+.table-striped {
+  background-color: #16bce5;
+}
+td {
+  text-align: center;
+}
+button {
+  border: none;
+  background: #16bce5;
+  transition: 1s;
+}
+@media only screen and (orientation: portrait) {
+  * {
+    letter-spacing: 1px;
+  }
+}
